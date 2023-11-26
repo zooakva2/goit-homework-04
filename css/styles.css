@@ -89,6 +89,7 @@ button {
     list-style-type: none;
     gap: 40px;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo{
@@ -141,6 +142,7 @@ button {
     text-decoration: none;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .line-three:hover{
     color: #404bbf
