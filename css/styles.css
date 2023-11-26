@@ -132,6 +132,7 @@ button {
 .section-one {
     background-color: #2e2f42;
     padding: 188px 0 188px;
+    background-image:rgba(46, 47, 66, 0.7), url(/images/image11.jpg);
 }
 .class-one{
     color: #FFFFFF;
@@ -308,4 +309,21 @@ button {
     color: #F4F4FD;
     line-height: 1.5;
     max-width: 264px;
+}
+
+.social_media{
+    fill: #f4f4fd;
+    stroke: #F4F4FD;
+    background-color: #4d5ae5;
+    display: block;
+    line-height: 0;
+}
+
+.social_media_menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.social_link {
+    
 }
