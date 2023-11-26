@@ -267,7 +267,6 @@ button {
 .section-three {
     background-color: #F4F4FD;
     padding: 120px 0 120px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section-menu-three {
@@ -287,6 +286,7 @@ button {
 .section-three-ul {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .section-three-title {
     background-color: #FFFFFF;
@@ -347,17 +347,35 @@ button {
 
 .social_media{
     fill: #f4f4fd;
-    stroke: #F4F4FD;
-    background-color: #4d5ae5;
-    display: block;
     line-height: 0;
 }
 
 .social_media_menu {
     display: flex;
     list-style-type: none;
+    justify-content: center;
+    gap: 24px;
 }
 
-.social_link {
+.social_media_items {
+    width: 40px;
+    height: 40px;
+}
 
+.social_media_link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_media_link:hover {
+    background-color: #404bbf;
+}
+
+.social_media_link:focus {
+    background-color: #404bbf;
 }
