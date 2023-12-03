@@ -349,6 +349,10 @@ button {
     transform: translateY(0%);
 }
 
+.hidden-text:hover {
+    transform: translateY(0%);
+}
+
 .hover-image {
     position: relative;
     overflow: hidden;
