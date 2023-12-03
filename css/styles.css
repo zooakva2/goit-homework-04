@@ -270,6 +270,7 @@ button {
    margin-bottom: 8px; 
 }
 .section-three {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #F4F4FD;
     padding: 120px 0 120px;
 }
@@ -282,19 +283,21 @@ button {
 }
 
 .section-tree-main-text {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 32px 0 32px ;
-
 }
 
 .box {
     border-bottom: 1px #E7E9FC solid;
 }
 .section-three-ul {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .section-three-title {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #FFFFFF;
     color: #2E2F42;
     font-size: 20px;
@@ -305,6 +308,7 @@ button {
     margin-bottom: 8px;
 }
 .section-three-text {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #FFFFFF;
     line-height: 1.5;
     text-align: center; 
@@ -406,6 +410,7 @@ button {
 }
 
 .social-text {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -471,6 +476,7 @@ button {
 }
 
 .social_media_link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
